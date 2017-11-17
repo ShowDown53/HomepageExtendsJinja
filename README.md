@@ -1,3 +1,3 @@
 # About
 
-A personal page for app server learning purposes. 
+Personal homepage made easier with Jinja Extends.
