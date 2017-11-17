@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Best blog, Amazing
+{% endblock %}
+
+{% block content %}
+<h1>Blog</h1>
+{% for blog in blogs %}
+<h2>{{ blog.title }}</h2>
+<div>{{ blog.text }}</div>
+{% endfor %}
+{% endblock %}
